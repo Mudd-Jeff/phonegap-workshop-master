@@ -142,7 +142,11 @@ li>a * {
     pointer-events: none;
 }
 
-li>a.tappable-active {
+/*li>a.tappable-active {
+    color: #fff;
+    background-color: #4286f5;
+}*/
+li>a:active {
     color: #fff;
     background-color: #4286f5;
 }
